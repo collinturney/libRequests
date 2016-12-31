@@ -1,0 +1,8 @@
+*.o
+*.a
+headersTest
+requestTest
+loadTest
+examples/headersExample
+examples/requestExample
+examples/responseExample
