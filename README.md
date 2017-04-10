@@ -1,14 +1,14 @@
-#libRequests
+# libRequests
 
 This library provides a simple means for making HTTP requests from C++ code without much boilerplate. It was designed to match the usage patterns of the popular [requests](http://docs.python-requests.org) library for Python.
 
-##Dependencies
+## Dependencies
 
 - libcurl-dev
 - libboost-dev
 - rapidjson-dev
 
-##Building
+## Building
 
 First, install the required dependencies. For Ubuntu 16.04 or Linux Mint 18:
 
@@ -27,7 +27,7 @@ The included Makefile will build the library as well as the included examples.
     g++ -O2 -g -I.. -o headersExample  headers.cpp -L.. -lRequests -lcurl -lboost_system -lboost_thread
     make[1]: Leaving directory '/home/collin/libRequests/examples'
 
-##Examples
+## Examples
 
 A simple HTTP request:
 
